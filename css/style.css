@@ -1,0 +1,409 @@
+/*
+
+RESET
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bar-container{
+    height: 80px;
+    background-color: #2B489B;
+}
+
+
+
+.colbar1{
+    width: 20%;
+    height: 40px;
+    vertical-align: middle;
+    
+
+}
+
+.colbar2{
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+}
+
+nav{
+    height: 40px;
+    
+   
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding: 5px 15px;
+    
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-bar{
+    color: white;
+}
+
+.colbar3{
+    width: 20%;
+    text-align: end;
+    vertical-align: middle;
+    height: 40px;
+    padding: 5px;
+    
+    
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 35%;
+    padding: 5px 8px;
+    color: #000;
+    background-color: white;
+    text-decoration: none;
+    
+    
+}
+
+.bar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.header-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+
+.header-topic{
+    height: 400px;
+    width: 60%;
+ 
+}
+
+
+
+.page-title{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.paragraph-title{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+    
+    
+}
+
+.button-Mac{
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 5px 8px;
+    color: #000;
+    background-color: white;
+    text-decoration: none;
+        
+}
+
+.button-browser{
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 5px 8px;
+    color: white;
+    background-color: black;
+    text-decoration: none;  
+    
+}
+
+
+.first-main-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.first-main-column1{
+    height: 450px;
+    width: 60%;
+
+}
+
+.first-image-main{
+    padding: 0 80px;
+}
+
+.first-title-main{
+    text-align: left;
+    padding: 30px 60px;
+    font-size: 2.5em;
+}
+
+.first-paragraph-main{
+    text-align: left;
+    padding: 0 60px;
+}
+
+.first-main-column2{
+    height: 450px;
+    width: 30%;
+
+}
+
+
+.second-main-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+
+.second-main-column2{
+    height: 450px;
+    width: 60%;
+
+}
+
+.second-image-main{
+    padding: 0 60px;
+}
+
+.second-main-column1{
+    height: 450px;
+    width: 30%;
+
+}
+
+.second-title-main{
+    text-align: left;
+    padding: 30px 60px;
+    font-size: 2.5em;
+}
+
+.second-paragraph-main{
+    text-align: left;
+    padding: 0 60px;
+}
+
+
+.fourth-main-container{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9E9E9E;
+}
+
+
+
+.fourth-main-topic{
+    height: 1000px;
+    width: 90%;
+
+}
+
+.fourth-title-main{
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+.fourth-paragraph-main{
+    text-align: center;
+    padding: 20px 250px;
+}
+
+.fourth-image-main{
+    padding: 0 250px;
+}
+
+.fourth-title-main2{
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    background-image: url("../img/stars.svg");  
+    background-position:center;
+}
+
+.botton-container-main{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.button-Mac2{
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 5px 8px;
+    color: white;
+    background-color: #ACBAE8;
+    text-decoration: none;
+}
+
+
+.top-footer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.debug .top-footer{
+    background-color: #19061A;
+}
+
+.column-container{
+    height: 450px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed black;
+    margin-top: 10px;
+}
+
+.debug .column-container{
+
+}
+
+.big-column{
+    height: 450px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.italogo{
+    height: 15px;
+    width: 15px;
+}
+
+.debug .big-column{
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+
+.first-small-column{
+    height: 450px;
+    width: 25%;
+}
+
+.debug .first-small-column{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+.second-small-column{
+    height: 450px;
+    width: 25%;  
+
+}
+
+.debug .second-small-column{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+.third-small-column{
+    height: 450px;
+    width: 25%;
+}
+
+.debug .third-small-column{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+.fourth-small-column{
+    height: 450px;
+    width: 25%;
+}
+
+.debug .fourth-small-column{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+.bottom-footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.debug .bottom-footer{
+    background-color: black;
+}
+
+.container-bottom-footer{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.debug .container-bottom-footer{
+    background-color:#20B2AA ;
+}
+
+.logo{
+
+}
+
+.debug .logo{
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.bottone{
+
+}
+
+.debug .bottone{
+    background-color: #F08080;
+    border: 2px dashed black;
+}
